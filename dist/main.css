@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap');
+
+body {
+	font-family: 'Space Mono', monospace;
+	color: white;
+	background: rgb(0,240,255);
+	background: radial-gradient(circle, rgba(0,240,255,1) 0%, rgba(180,195,3,1) 100%);
+	transition: all 0.5s ease-in-out;
+}
+
+button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 160px;
+	font-family: 'Space Mono', monospace;
+	color: rgba(255, 255, 255, 1);
+	background: none;
+	outline: none;
+	opacity: 1;
+	transition: all 0.5s ease-in-out;
+}
+
+.button-text
+{
+	margin-left: 4px;
+}
+
+button:hover {
+	opacity: 0.75;
+}
