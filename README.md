@@ -1,6 +1,9 @@
-# 
+# GoogleArchive2URLs
 
-To-dos:
+## Description
+Chrome Extension that simply gets non temporary URLs from Google Archives and copies them to the clipboard
+
+### To-dos:
 - Availability only on Google Archive page
 - Clean CSS
 - Add size options instead of just original
